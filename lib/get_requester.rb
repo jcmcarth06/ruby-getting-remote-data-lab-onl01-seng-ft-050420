@@ -18,4 +18,3 @@ class GetRequester
   response = JSON.parse(self.get_response_body)
   end
 end
-
