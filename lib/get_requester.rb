@@ -11,9 +11,11 @@ url = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.
   uri = URI.parse(URL)
      response = Net::HTTP.get_response(uri)
      response.body
-     JSON.parse(response.body)
   end
 
+  def parse_JSON
+    JSON.parse(response.body)
+  end
 
 
 end
