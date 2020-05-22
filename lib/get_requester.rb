@@ -11,5 +11,5 @@ url = "https://learn-co-curriculum.github.io/json-site-example/endpoints/people.
      response = Net::HTTP.get_response(uri)
      response.body
 
-    
+
 end
